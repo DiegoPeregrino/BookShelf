@@ -1,0 +1,25 @@
+
+# .NET
+**/bin/
+**/obj/
+**/.vs/
+**/*.user
+**/*.suo
+
+# Node.js / React
+**/node_modules/
+**/dist/
+**/.vite/
+
+# Environment variables
+**/.env
+**/.env.*
+!**/.env.example
+
+# IDEs
+.idea/
+.vscode/
+
+# OS
+.DS_Store
+Thumbs.db
