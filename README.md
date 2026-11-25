@@ -1,55 +1,62 @@
 # BookShelf
 
-Aplicación web para la gestión de una biblioteca. El proyecto está desarrollado con una arquitectura separada entre frontend y backend.
+A full-stack library management system built with .NET and React.
 
-## Tecnologías
+## Technologies
 
 ### Backend
 - C#
-- ASP.NET Core Web API
 - .NET 11
+- ASP.NET Core Web API
 
 ### Frontend
 - React
 - JavaScript
 - Vite
 
-## Estructura del proyecto
+## Project Structure
 
 ```text
 BookShelf/
 ├── backend/
-│   ├── BookShelf.Api/
-│   ├── BookShelf.Application/
-│   ├── BookShelf.Domain/
-│   └── BookShelf.Infrastructure/
+│   └── BookShelf/
+│       ├── BookShelf.Api/
+│       ├── BookShelf.Application/
+│       ├── BookShelf.Domain/
+│       ├── BookShelf.Infrastructure/
+│       └── BookShelf.slnx
 │
 ├── frontend/
 │   └── bookshelf-client/
+│       ├── public/
+│       ├── src/
+│       ├── package.json
+│       └── vite.config.js
 │
 ├── .gitignore
+├── .gitattributes
 └── README.md
 ```
 
-## Arquitectura
+## Architecture
 
-El backend está organizado en cuatro proyectos:
+The backend is organized into four projects, each with a specific responsibility:
 
-- **Api:** exposición de endpoints HTTP.
-- **Application:** casos de uso y servicios de aplicación.
-- **Domain:** entidades y reglas de negocio.
-- **Infrastructure:** persistencia y servicios externos.
+- **Api:** Exposes HTTP endpoints and handles incoming requests.
+- **Application:** Contains application services and use cases.
+- **Domain:** Defines business entities and domain rules.
+- **Infrastructure:** Handles data persistence and external service integrations.
 
-El frontend consume los servicios del backend mediante una API REST.
+The frontend communicates with the backend through a REST API.
 
-## Estado del proyecto
+## Project Status
 
-En desarrollo. Actualmente se encuentra creada la estructura inicial del backend y frontend.
+In development. The initial backend and frontend structures have been created.
 
-## Ejecución
+## Getting Started
 
-Las instrucciones de instalación y ejecución se incorporarán conforme avance el desarrollo.
+Setup and execution instructions will be added as development progresses.
 
-## Autor
+## Author
 
 Diego Peregrino
