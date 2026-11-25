@@ -1,0 +1,6 @@
+<Solution>
+  <Project Path="BookShelf.Api/BookShelf.Api.csproj" />
+  <Project Path="BookShelf.Application/BookShelf.Application.csproj" />
+  <Project Path="BookShelf.Domain/BookShelf.Domain.csproj" />
+  <Project Path="BookShelf.Infrastructure/BookShelf.Infrastructure.csproj" />
+</Solution>
